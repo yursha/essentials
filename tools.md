@@ -1,3 +1,4 @@
 - `top` - CPU/Memory per process in real-time
-- `find`, `xargs`, `grep`
+- `find`, `xargs`, `grep`, `vim`
 - `file`, `which`, `type`
+- `bash`, `tmux`
