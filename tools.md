@@ -2,3 +2,4 @@
 - `find`, `xargs`, `grep`, `vim`
 - `file`, `which`, `type`
 - `bash`, `tmux`
+- `ssh`
