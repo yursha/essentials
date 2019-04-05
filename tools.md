@@ -1,1 +1,3 @@
 - `top` - CPU/Memory per process in real-time
+- `find`, `xargs`, `grep`
+- `file`, `which`, `type`
