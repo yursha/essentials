@@ -18,3 +18,7 @@
 # Analyzing binary libraries and executables
 
 - `ldd` - list dynamic dependencies. Prints shared libs which are required by a .so file or an executable file.
+
+# syscalls
+
+- `strace`
