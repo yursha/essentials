@@ -1,2 +1,2 @@
 - `/proc/iomem` - physical memory address map
-- `/proc/self/cgroup` - help to find out if a process is executing inside a Linux container
+- `/proc/self/cgroup` - helps to find out if a process is executing inside a Linux container
