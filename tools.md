@@ -7,6 +7,11 @@
 
 - `top` - Show CPU and DRAM usage per process in real-time
 
+## Disk
+
+- `du`
+- `df`
+
 # Networking tools
 
 - `ssh`
@@ -22,3 +27,16 @@
 # syscalls
 
 - `strace`
+
+# C++
+
+- `c++filt` - demangle a C++ name
+
+# Binary files
+
+- `elfdump`
+- `objdump`
+- `kdump`
+- `readelf`
+- `string`
+- `hexdump`
