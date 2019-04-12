@@ -1,3 +1,3 @@
 - `sudo cat /proc/iomem` - physical memory address map
-- `sudo cat /proc/ioport`
+- `sudo cat /proc/ioports`
 - `/proc/self/cgroup` - helps to find out if a process is executing inside a Linux container
