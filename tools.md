@@ -7,11 +7,6 @@
 
 - `top` - Show CPU and DRAM usage per process in real-time
 
-## Disk
-
-- `du`
-- `df`
-
 # Networking tools
 
 - `ssh`
