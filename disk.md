@@ -2,3 +2,5 @@
 - `iotop` - real-time disk activity
 - `atop`
 - `ioping`
+- `du`
+- `df`
