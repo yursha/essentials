@@ -1,3 +1,7 @@
+# Physical RAM mappings
+
+- `sudo cat /proc/iomem` - physical memory address map
+
 # Page faults
 
 - `top` - shows the number of minor and major page faults, as well as deltas 
