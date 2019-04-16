@@ -1,6 +1,7 @@
-# Physical RAM mappings
+# Memory mappings
 
-- `sudo cat /proc/iomem` - memory mapping of peripheral's address space (Registers) to CPU's address space.
+- `sudo cat /proc/iomem` - memory mapping of peripheral's address space (Registers) to real address space.
+- `pmap -x <pid>` - map of a virtual memory address space of a process.
 
 # Page faults
 
