@@ -18,3 +18,8 @@
 # Kernel buffers and page cache
 
 - `free -h` - show how much memory is taken by kernel buffers and the page cache.
+- `sync` - synchronize cached writes to disk.
+- `echo 3 > /proc/sys/vm/drop_caches` - drop caches
+  + `1` - free page cache 
+  + `2` - free dentries and inodes
+  + `3` - free page cache, dentries and inodes 
