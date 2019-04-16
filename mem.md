@@ -10,3 +10,11 @@
 - `ps` - `ps -o min_flt,maj_flt,cmd <pid>` - per process.
 - `/usr/bin/time -v ./prog` - per process.
 - `sar` - `sar -B 1 10` - system-level statistics only.
+
+# Memory usage
+
+- `free -h`
+
+# Kernel buffers and page cache
+
+- `free -h` - show how much memory is taken by kernel buffers and the page cache.
