@@ -17,9 +17,17 @@
 
 # Kernel buffers and page cache
 
-- `free -h` - show how much memory is taken by kernel buffers and the page cache.
+- `free -h` - show how much memory is taken by kernel buffers and the page cache (`buff/cache`).
 - `sync` - synchronize cached writes to disk.
 - `sudo sh -c 'echo 1 >/proc/sys/vm/drop_caches'` - drop caches
   + `1` - free page cache 
   + `2` - free dentries and inodes
   + `3` - free page cache, dentries and inodes 
+- `fincore` from `linux-ftools` - can show which files are cached.
+
+## swap
+
+- `sudo swapoff -a`
+- `sudo swapon -a`
+- `free -h` - displays memory taken by swap (total/free/used).
+- `top` - displays memory taken by swap (total/free/used)
