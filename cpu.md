@@ -1,3 +1,3 @@
 # Find out process id
 
-- `pgrep a.out`
+- `pgrep -l a.out`
