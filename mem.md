@@ -20,6 +20,7 @@
 - `free -h` - show how much memory is taken by kernel buffers and the page cache (`buff/cache`).
 - `sync` - synchronize cached writes to disk.
 - `sudo sh -c 'echo 1 >/proc/sys/vm/drop_caches'` - drop caches
+  + alternative form: `sudo sysctl vm.drop_caches=1`
   + `1` - free page cache 
   + `2` - free dentries and inodes
   + `3` - free page cache, dentries and inodes 
