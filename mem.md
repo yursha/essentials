@@ -25,7 +25,7 @@
   + `2` - free dentries and inodes
   + `3` - free page cache, dentries and inodes 
 - `fincore` from `linux-ftools` - can show which files are cached.
-- [`vmtouch`](https://github.com/hoytech/vmtouch) - check is the files is cached by the kernel.
+- [`vmtouch`](https://github.com/hoytech/vmtouch) - check is a file is cached by the kernel.
 
 ## swap
 
