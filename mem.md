@@ -1,6 +1,6 @@
 # Physical RAM mappings
 
-- `sudo cat /proc/iomem` - physical memory address map
+- `sudo cat /proc/iomem` - memory mapping of peripheral's address space (Registers) to CPU's address space.
 
 # Page faults
 
