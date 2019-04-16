@@ -1,2 +1,4 @@
 - `sudo apt-get install <package>` - install a debian package
-- `dpkg-query -L <package>` - list files inside a debian package
+- `sudo apt-get update` - update APT cache from the network.
+- `apt-cache search <keyword>` - search for packages in the local APT cache. 
+- `dpkg-query -L <package>` - list files inside a dpkg package.
